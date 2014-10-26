@@ -40,7 +40,7 @@ namespace Kinect
         {
             _kinectSensor = KinectSensor.GetDefault();
             InitializeInfrared();
-            _kinectSensor?.Open();
+            _kinectSensor.Open();
 
             if (_kinectSensor != null)
             {
