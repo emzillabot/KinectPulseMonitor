@@ -1,0 +1,4 @@
+configuration: Debug
+
+build:
+  project: Kinect.sln
